@@ -1,0 +1,46 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "mood",
+    "lang" : "fr",
+    "exotic" : false,
+    "id" : "mood",
+    "values" : [
+      {
+        "value" : "autiste",
+        "expressions" : [
+          "autiste"
+        ]
+      },
+      {
+        "value" : "chauve",
+        "expressions" : [
+          "chauve"
+        ]
+      },
+      {
+        "value" : "ennervé",
+        "expressions" : [
+          "ennervé"
+        ]
+      },
+      {
+        "value" : "healthy",
+        "expressions" : [
+          "healthy"
+        ]
+      },
+      {
+        "value" : "pressé",
+        "expressions" : [
+          "pressé"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

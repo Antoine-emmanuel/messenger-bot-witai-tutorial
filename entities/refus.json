@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "refus",
+    "lang" : "fr",
+    "exotic" : false,
+    "id" : "refus",
+    "values" : [
+      {
+        "value" : "Euh, j'ai changé d'avis",
+        "expressions" : [
+          "Euh, j'ai changé d'avis"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

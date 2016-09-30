@@ -1,0 +1,151 @@
+{
+  "data" : [
+    {
+      "id" : "function-getSelection",
+      "type" : "function",
+      "name" : "getSelection"
+    },
+    {
+      "id" : "template-Alors, comme ça ",
+      "type" : "template",
+      "template" : "Alors, comme ça "
+    },
+    {
+      "id" : "template-Alors, comme ça on veut manger atour du Tank ?",
+      "type" : "template",
+      "template" : "Alors, comme ça on veut manger atour du Tank ?",
+      "quickreplies" : [
+        "Toutafé",
+        "Padutou"
+      ]
+    },
+    {
+      "id" : "template-BIP bip BIP *recherche en cours*",
+      "type" : "template",
+      "template" : "BIP bip BIP *recherche en cours*"
+    },
+    {
+      "id" : "template-Bah casse toi...",
+      "type" : "template",
+      "template" : "Bah casse toi..."
+    },
+    {
+      "id" : "template-Bon d'accord, on recommence, mais je n'ai pas que ça à faire...",
+      "type" : "template",
+      "template" : "Bon d'accord, on recommence, mais je n'ai pas que ça à faire..."
+    },
+    {
+      "id" : "template-Et voilà une petite sélection ",
+      "type" : "template",
+      "template" : "Et voilà une petite sélection "
+    },
+    {
+      "id" : "template-Et voilà une petite sélection  {selection} ",
+      "type" : "template",
+      "template" : "Et voilà une petite sélection  {selection} ",
+      "requirements" : [
+        {
+          "name" : "selection",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Ha, oui je vois...",
+      "type" : "template",
+      "template" : "Ha, oui je vois..."
+    },
+    {
+      "id" : "template-Hummmm",
+      "type" : "template",
+      "template" : "Hummmm"
+    },
+    {
+      "id" : "template-J'ai ce qu'il te faut !",
+      "type" : "template",
+      "template" : "J'ai ce qu'il te faut !"
+    },
+    {
+      "id" : "template-Je vais te trouver le repas idéal",
+      "type" : "template",
+      "template" : "Je vais te trouver le repas idéal"
+    },
+    {
+      "id" : "template-Ne me remercie pas",
+      "type" : "template",
+      "template" : "Ne me remercie pas"
+    },
+    {
+      "id" : "template-Ok, je vais te trouver l'endroit parfait pour manger pas loin :)",
+      "type" : "template",
+      "template" : "Ok, je vais te trouver l'endroit parfait pour manger pas loin :)"
+    },
+    {
+      "id" : "template-Pour ça, je vais avoir besoin que tu me donnes ton mood pour ce repas ?",
+      "type" : "template",
+      "template" : "Pour ça, je vais avoir besoin que tu me donnes ton mood pour ce repas ?"
+    },
+    {
+      "id" : "template-Rivoluzione ",
+      "type" : "template",
+      "template" : "Rivoluzione "
+    },
+    {
+      "id" : "template-Rivoluzione ! la cantine Italiene",
+      "type" : "template",
+      "template" : "Rivoluzione ! la cantine Italiene"
+    },
+    {
+      "id" : "template-Rivoluzione ! la cantine Italienne qui augmente ses prix à chaque retours de vacances.",
+      "type" : "template",
+      "template" : "Rivoluzione ! la cantine Italienne qui augmente ses prix à chaque retours de vacances."
+    },
+    {
+      "id" : "template-Sali",
+      "type" : "template",
+      "template" : "Sali"
+    },
+    {
+      "id" : "template-Sali salut !",
+      "type" : "template",
+      "template" : "Sali salut !"
+    },
+    {
+      "id" : "template-Tu es du genre {mood}",
+      "type" : "template",
+      "template" : "Tu es du genre {mood}",
+      "requirements" : [
+        {
+          "name" : "mood",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Tu es du genre {mood} ?",
+      "type" : "template",
+      "template" : "Tu es du genre {mood} ?",
+      "requirements" : [
+        {
+          "name" : "mood",
+          "negative" : false
+        }
+      ],
+      "quickreplies" : [
+        "Yep",
+        "Euh, j'ai changé d'avis"
+      ]
+    },
+    {
+      "id" : "template-Tu es du genre {mood}...",
+      "type" : "template",
+      "template" : "Tu es du genre {mood}...",
+      "requirements" : [
+        {
+          "name" : "mood",
+          "negative" : false
+        }
+      ]
+    }
+  ]
+}

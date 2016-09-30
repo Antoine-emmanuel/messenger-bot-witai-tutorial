@@ -1,0 +1,30 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "salutation",
+    "lang" : "fr",
+    "exotic" : false,
+    "id" : "salutation",
+    "values" : [
+      {
+        "value" : "salut",
+        "expressions" : [
+          "Salut",
+          "Yo",
+          "bonjour",
+          "bonsoir",
+          "coucou",
+          "hello",
+          "hola",
+          "plop",
+          "yo"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

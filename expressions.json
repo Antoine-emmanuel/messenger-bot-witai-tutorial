@@ -1,0 +1,81 @@
+{
+  "data" : [
+    {
+      "text" : "Euh, j'ai changé d'avis",
+      "entities" : [
+        {
+          "entity" : "refus",
+          "value" : "\"Euh, j'ai changé d'avis\"",
+          "start" : 0,
+          "end" : 23
+        }
+      ]
+    },
+    {
+      "text" : "Padutou",
+      "entities" : [
+        {
+          "entity" : "non",
+          "value" : "\"Padutou\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "Salut",
+      "entities" : [
+        {
+          "entity" : "salutation",
+          "value" : "\"salut\"",
+          "start" : 0,
+          "end" : 5
+        }
+      ]
+    },
+    {
+      "text" : "Toutafé",
+      "entities" : [
+        {
+          "entity" : "oui",
+          "value" : "\"Toutafé\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "Yep",
+      "entities" : [
+        {
+          "entity" : "accepte",
+          "value" : "\"Yep\"",
+          "start" : 0,
+          "end" : 3
+        }
+      ]
+    },
+    {
+      "text" : "ennervé",
+      "entities" : [
+        {
+          "entity" : "mood",
+          "value" : "\"ennervé\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "pressé",
+      "entities" : [
+        {
+          "entity" : "mood",
+          "value" : "\"pressé\"",
+          "start" : 0,
+          "end" : 6
+        }
+      ]
+    }
+  ]
+}

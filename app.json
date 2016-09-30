@@ -1,0 +1,9 @@
+{
+  "version" : 20160513,
+  "zip-command" : "zip Miam.zip Miam/app.json Miam/entities/*.json Miam/actions.json Miam/stories.json Miam/expressions.json",
+  "data" : {
+    "name" : "Miam",
+    "description" : "Miam au Tank",
+    "lang" : "fr"
+  }
+}

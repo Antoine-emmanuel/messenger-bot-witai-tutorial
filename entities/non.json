@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "non",
+    "lang" : "fr",
+    "exotic" : false,
+    "id" : "non",
+    "values" : [
+      {
+        "value" : "Padutou",
+        "expressions" : [
+          "Padutou"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

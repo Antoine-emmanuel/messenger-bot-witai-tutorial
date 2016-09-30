@@ -1,0 +1,30 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "free-text",
+      "keywords",
+      "keywords"
+    ],
+    "name" : "oui",
+    "lang" : "fr",
+    "exotic" : false,
+    "id" : "oui",
+    "values" : [
+      {
+        "value" : "Padutou",
+        "expressions" : [
+          "Padutou"
+        ]
+      },
+      {
+        "value" : "Toutafé",
+        "expressions" : [
+          "Toutafé"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

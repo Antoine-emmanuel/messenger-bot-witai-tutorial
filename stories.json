@@ -1,0 +1,160 @@
+{
+  "data" : [
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Salut",
+          "entities" : [
+            {
+              "entity" : "salutation",
+              "value" : "\"salut\"",
+              "start" : 0,
+              "end" : 5
+            }
+          ],
+          "operations" : [
+            {
+              "action" : "template-Sali salut !"
+            },
+            {
+              "action" : "template-Alors, comme ça on veut manger atour du Tank ?"
+            }
+          ]
+        },
+        {
+          "branches" : [
+            [
+              {
+                "user" : "Toutafé",
+                "entities" : [
+                  {
+                    "entity" : "oui",
+                    "value" : "\"Toutafé\"",
+                    "start" : 0,
+                    "end" : 7
+                  }
+                ],
+                "operations" : [
+                  {
+                    "action" : "template-Ok, je vais te trouver l'endroit parfait pour manger pas loin :)"
+                  },
+                  {
+                    "bookmark" : "mood"
+                  },
+                  {
+                    "action" : "template-Pour ça, je vais avoir besoin que tu me donnes ton mood pour ce repas ?"
+                  }
+                ]
+              },
+              {
+                "branches" : [
+                  [ ],
+                  [
+                    {
+                      "user" : "pressé",
+                      "entities" : [
+                        {
+                          "entity" : "mood",
+                          "value" : "\"pressé\"",
+                          "start" : 0,
+                          "end" : 6
+                        }
+                      ],
+                      "operations" : [
+                        {
+                          "action" : "template-Ha, oui je vois..."
+                        },
+                        {
+                          "action" : "template-Tu es du genre {mood} ?"
+                        }
+                      ]
+                    },
+                    {
+                      "branches" : [
+                        [ ],
+                        [ ],
+                        [
+                          {
+                            "user" : "Yep",
+                            "entities" : [
+                              {
+                                "entity" : "accepte",
+                                "value" : "\"Yep\"",
+                                "start" : 0,
+                                "end" : 3
+                              }
+                            ],
+                            "operations" : [
+                              {
+                                "action" : "template-Hummmm"
+                              },
+                              {
+                                "action" : "template-BIP bip BIP *recherche en cours*"
+                              },
+                              {
+                                "action" : "template-J'ai ce qu'il te faut !"
+                              },
+                              {
+                                "action" : "template-Rivoluzione ! la cantine Italienne qui augmente ses prix à chaque retours de vacances."
+                              },
+                              {
+                                "action" : "template-Ne me remercie pas"
+                              }
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "user" : "Euh, j'ai changé d'avis",
+                            "entities" : [
+                              {
+                                "entity" : "refus",
+                                "value" : "\"Euh, j'ai changé d'avis\"",
+                                "start" : 0,
+                                "end" : 23
+                              }
+                            ],
+                            "operations" : [
+                              {
+                                "action" : "template-Bon d'accord, on recommence, mais je n'ai pas que ça à faire..."
+                              },
+                              {
+                                "action" : "template-Je vais te trouver le repas idéal"
+                              },
+                              {
+                                "jump" : "mood"
+                              }
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "user" : "Padutou",
+                "entities" : [
+                  {
+                    "entity" : "non",
+                    "value" : "\"Padutou\"",
+                    "start" : 0,
+                    "end" : 7
+                  }
+                ],
+                "operations" : [
+                  {
+                    "action" : "template-Bah casse toi..."
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

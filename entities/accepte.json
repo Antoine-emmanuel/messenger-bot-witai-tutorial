@@ -1,0 +1,22 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "accepte",
+    "lang" : "fr",
+    "exotic" : false,
+    "id" : "accepte",
+    "values" : [
+      {
+        "value" : "Yep",
+        "expressions" : [
+          "Yep"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}
